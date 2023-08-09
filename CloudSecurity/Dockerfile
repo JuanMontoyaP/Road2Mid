@@ -1,8 +1,4 @@
-FROM registry.strln.net/thor/ubuntu_hardened:20.04
-
-RUN apt-get update
-RUN apt-get install -y python3
-RUN apt-get install -y python3-pip
+FROM registry.strln.net/streamline-network-dev/python3-slim-hardened:3.11-slim
 
 WORKDIR /usr/src/code
 
